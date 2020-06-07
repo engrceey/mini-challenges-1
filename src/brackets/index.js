@@ -44,7 +44,7 @@ function isValid(str) {
   if (
     countCurlyOpen !== countCurlyClosed ||
     countCurvedOpen !== countCurvedClosed ||
-    countSquareOpen !== countSquareClosed
+    countSquareOpen !=== countSquareClosed
   ) {
     return "invalid";
   }
